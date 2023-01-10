@@ -1,0 +1,32 @@
+{
+  "name": "koishi-plugin-mikan",
+  "description": "mikan project for koishi",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "koishi": {
+    "description": {
+      "zh": "蜜柑计划番剧订阅管理插件"
+    },
+    "service": {
+      "required": [
+        "database"
+      ]
+    }
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "market:hidden"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.11.0"
+  }
+}
