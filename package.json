@@ -1,7 +1,9 @@
 {
   "name": "koishi-plugin-mikan",
   "description": "mikan project for koishi",
-  "version": "0.0.1",
+  "version": "0.0.1-placeholder.1",
+  "repository": "https://github.com/Lipraty/koishi-plugin-mikan",
+  "author": "Lipraty <i@lonay.me>",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -14,6 +16,7 @@
     "description": {
       "zh": "蜜柑计划番剧订阅管理插件"
     },
+    "preview": true,
     "service": {
       "required": [
         "database"
@@ -23,8 +26,7 @@
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin",
-    "market:hidden"
+    "plugin"
   ],
   "peerDependencies": {
     "koishi": "^4.11.0"
